@@ -63,5 +63,4 @@ python train_model.py
 python detect_mask_webcam.py
 ```
 
-*(Önemli Not: Kamera açıldığında kameraya izin vermeniz gerekebilir. Çıkış yapmak için kamera penceresi açıkken 'q' tuşuna basabilirsiniz.)*
 
