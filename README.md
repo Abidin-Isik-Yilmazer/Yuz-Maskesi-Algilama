@@ -25,7 +25,7 @@ Bu proje, derin öğrenme ve bilgisayarlı görü teknikleri kullanılarak gerç
 ```text
 Yuz-Maskesi-Algilama/
 │
-├── dataset/                            # Maskeli ve maskesiz eğitim verileri (Git'e eklenmez)
+├── dataset/                            # Maskeli ve maskesiz eğitim verileri 
 ├── detect_mask_webcam.py               # Kameradan gerçek zamanlı test kodu
 ├── download_dataset.py                 # Veri setini otomatik indiren betik
 ├── train_model.py                      # Keras MobileNetV2 model eğitim kodu
@@ -37,21 +37,31 @@ Yuz-Maskesi-Algilama/
 
 ## ⚙️ Kurulum ve Çalıştırma
 
-Gerekli tüm kurulum ve çalıştırma işlemlerini aşağıdaki komut bloğu üzerinden sırasıyla gerçekleştirebilirsiniz:
-
+**1. Projeyi Klonlayın:**
 ```bash
-# 1. Depoyu bilgisayarınıza klonlayın ve proje klasörüne girin
 git clone [https://github.com/Abidin-Isik-Yilmazer/Yuz-Maskesi-Algilama.git](https://github.com/Abidin-Isik-Yilmazer/Yuz-Maskesi-Algilama.git)
+```
+
+**2. Proje Klasörüne Girin:**
+```bash
 cd Yuz-Maskesi-Algilama
+```
 
-# 2. Gerekli Python kütüphanelerini yükleyin
+**3. Gerekli Kütüphaneleri Yükleyin:**
+```bash
 pip install tensorflow opencv-contrib-python scikit-learn matplotlib numpy
+```
 
-# 3. (Opsiyonel) Eğitim verilerini indirip modeli baştan eğitmek isterseniz
+**4. (Opsiyonel) Modeli Yeniden Eğitmek İsterseniz:**
+```bash
 python download_dataset.py
 python train_model.py
+```
 
-# 4. Uygulamayı başlatın (Kamera Testi)
+**5. Uygulamayı Başlatın (Kamera Testi):**
+```bash
 python detect_mask_webcam.py
 ```
+
+*(Önemli Not: Kamera açıldığında kameraya izin vermeniz gerekebilir. Çıkış yapmak için kamera penceresi açıkken 'q' tuşuna basabilirsiniz.)*
 
