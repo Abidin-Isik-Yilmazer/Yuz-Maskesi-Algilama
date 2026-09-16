@@ -1,0 +1,13 @@
+# PyCharm ve Sanal Ortam Dosyaları
+.idea/
+.venv/
+venv/
+
+# Python Önbellek Dosyaları
+__pycache__/
+*.pyc
+
+# İndirilen Resimler
+dataset/
+dataset.zip
+temp_data/
