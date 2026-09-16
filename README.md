@@ -39,7 +39,7 @@ Yuz-Maskesi-Algilama/
 
 **1. Projeyi Klonlayın:**
 ```bash
-git clone [https://github.com/Abidin-Isik-Yilmazer/Yuz-Maskesi-Algilama.git](https://github.com/Abidin-Isik-Yilmazer/Yuz-Maskesi-Algilama.git)
+git clone https://github.com/Abidin-Isik-Yilmazer/Yuz-Maskesi-Algilama.git
 ```
 
 **2. Proje Klasörüne Girin:**
